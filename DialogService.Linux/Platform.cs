@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DialogService
+namespace DialogService.Linux
 {
     /// <summary>
     /// Functionality to get Linux platform implementation of dialog service

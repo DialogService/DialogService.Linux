@@ -9,7 +9,8 @@ namespace DialogService.Linux
     /// </summary>
     public class PlatformImplementation : AbstractPlatform
     {
-        public override RuntimePlatform Platform => RuntimePlatform.Linux;
+        public override IEnumerable<RuntimePlatform> Platform
+			=> new RuntimePlatform[] { RuntimePlatform.Linux };
 
         /// <summary>
         /// Gets Linux dialog service implementation
